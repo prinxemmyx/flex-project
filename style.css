@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.first-head{
+    
+    border: 1px solid red;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+li{
+margin: 0 15px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 23px;
+}
+
+.btn-link{
+    border: 1px solid pink;
+    display: inline-block;
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 0 ;
+    color: black;
+    box-shadow: 2px 3px 2px grey;
+    margin-right: 20px;
+}
+header > div > :first-child{
+    background-color: skyblue;
+}
+header > div > :last-child{
+    background-color: orange;
+}
+
+.main-cont{
+    
+}
+.second-head{
+    margin-top: 20px;
+    background-color: blue;
+    display: flex;
+    border: 1px solid red;
+}
+.store-link{
+    display: flex;
+    color: white;
+    width: 450px;
+    padding-left: 10px;
+    align-items: center;
+    
+}
+.nav-cont{
+    
+    color: white;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+.first-img{
+    border-radius: 50px;
+}
+
+.main-cont{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(226, 223, 223);
+}
+.a-tags{
+    color: white;
+}
+.sider{
+    margin-right: 15px;
+    padding-top: 5px;
+    display: inline;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    
+    
+    width: 250px;
+    height: 400px;
+}
+.span-tag{
+    padding-bottom: 15px;
+}
+.a-tags2{
+    color: black;
+    padding-left: 5px;
+}
+.footer-tag{
+    height: 220px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+padding-left: 10px;
+    justify-content: flex-end;
+}
+
+.aside-icons{
+    padding-left: 10px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+.fa-envelope-o{
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+.div-envelope{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 100px;
+}
+
+.blabla-nav{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sellers-cont{
+    margin-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    background-color: white;
+}
+.span-icons{
+    display: flex;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+div > span{
+    justify-content: space-around;
+    
+    background-color: white;
+    width: 150px;
+display: flex;
+}
+
+
+.article-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.p-text{
+    width: 150px;
+    padding-top: 10px;
+    margin-right: 40px;
+}
+.span-text{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+button{
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+}
+.last-sider{
+    margin-top: 15px;
+    display: flex;
+}
+.last-div{
+    padding-left: 10px;
+    background-color: white;
+}
